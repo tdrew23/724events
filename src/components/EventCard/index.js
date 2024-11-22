@@ -1,13 +1,13 @@
 import PropTypes from "prop-types";
-import { getMonth } from "../../helpers/Date"; // Assurez-vous que getMonth retourne les mois au format attendu
+import { getMonth } from "../../helpers/Date"; 
 import "./style.scss";
 
 const EventCard = ({
-  imageSrc = "default-image.jpg", // Valeur par défaut pour l'image
-  imageAlt = "image",             // Valeur par défaut pour le texte alternatif
-  date = new Date("2022-04-01"),  // Modifié pour être en avril
-  title = "Titre non disponible",  // Valeur par défaut pour le titre
-  label = "Type non spécifié",     // Valeur par défaut pour le label
+  imageSrc = "default-image.jpg", 
+  imageAlt = "image",             
+  date = new Date("2022-04-01"),  
+  title = "Titre non disponible", 
+  label = "Type non spécifié",     
   small = false,
   ...props
 }) => (
