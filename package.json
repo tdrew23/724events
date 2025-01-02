@@ -2,6 +2,7 @@
   "name": "724-events",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tdrew23.github.io/724events",
   "dependencies": {
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.0.1",
